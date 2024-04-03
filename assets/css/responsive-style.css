@@ -1,0 +1,202 @@
+.visible-xs {
+	display: none !important;
+}
+
+.hidden-xs {
+	display: block !important;
+}
+
+@media(max-width: 1200px) {
+
+	html,
+	body {
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 992px) {
+
+	html,
+	body {
+		font-size: 11px;
+	}
+
+	.footer-inner p {
+		font-size: .9rem;
+	}
+
+	.callus-col {
+		width: 33rem;
+		max-width: initial;
+	}
+}
+
+@media(max-width: 767px) {
+	.visible-xs {
+		display: block !important;
+	}
+
+	.hidden-xs {
+		display: none !important;
+	}
+}
+
+@media(max-width: 767px) {
+
+	html,
+	body {
+		font-size: 13px;
+	}
+
+	.callus-col {
+		width: 100%;
+		max-width: 100%;
+		border-radius: 10rem 10rem 0rem 0rem;
+	}
+
+	.logo-col {
+		text-align: center;
+	}
+
+	.fresh-loan h1 {
+		font-size: 2rem;
+	}
+
+	.fresh-loan h1,
+	.pre-qualify h5 {
+		max-width: 100%;
+		text-align: center;
+		padding: 0 2rem;
+	}
+
+	.smile-girl-col img {
+		display: none;
+	}
+
+	.rating-col {
+		justify-content: center;
+	}
+
+	.callus-col:before {
+		display: none;
+	}
+
+	.xp-0 {
+		padding: 0 !important;
+	}
+
+	.callus-col .phone-icon {
+		position: absolute;
+		top: -4rem;
+		left: calc(50% - 4.5rem);
+		width: 6.5rem;
+	}
+
+	.callus-col {
+		width: 30rem;
+		max-width: 100%;
+		border-radius: 14rem 14rem 0rem 0rem;
+		padding-top: 4rem;
+		text-align: center;
+		margin-top: 4rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 1rem;
+	}
+
+	.callus-col .call-content {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.callus-col .call-content h2 {
+		display: flex;
+		flex-direction: column;
+		line-height: 1.4;
+	}
+
+	.callus-col .call-content h2 a {
+		text-decoration: none !important;
+		border: 0;
+	}
+
+	.callus-col .call-content p {
+		order: 2;
+		margin-top: 2rem;
+		font-size: 1.2rem;
+		padding: 0 1rem;
+	}
+
+	.callus-col .call-content h2 {
+		order: 3;
+		margin-top: 2rem;
+	}
+
+	.callus-col .call-content a {
+		order: 1;
+	}
+
+	.zip-inner {
+		max-width: 100%;
+	}
+
+	.dedicate-img img {
+		width: 4.65rem;
+	}
+
+	.dedicate-inner-1 {
+		background: linear-gradient(0deg, #008AEA, #008AEA), #008AEA;
+		border-radius: 0px 10px 10px 0px;
+		padding: 0.25rem 1rem;
+		max-width: calc(100% - 4.45rem);
+	}
+
+	.dedicate-inner-1 p {
+		font-size: .8rem;
+	}
+
+	.dedicate-inner-1 h6 {
+		font-size: 1.1rem;
+		line-height: .9;
+	}
+
+	.toll-inner {
+		margin-bottom: 2rem;
+	}
+
+	.speaker-inner p {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.speaker-inner p span {
+		padding: 0;
+		padding-top: 1rem;
+	}
+
+	.footer-inner {
+		padding: 0.5rem 0.5rem;
+	}
+
+	.number-btn {
+		justify-content: center !important;
+		margin-top: 2rem;
+	}
+
+	.header-col-1 {
+		padding-bottom: 5rem;
+	}
+
+	.form-sec-col-inner {
+		padding: 0 1rem;
+	}
+
+	.qualified-col-inner-1 {
+		padding: 1.125rem 1.5rem;
+	}
+
+	.qualified-col-content h1 {
+		font-size: 2rem;
+	}
+}
